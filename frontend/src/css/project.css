@@ -1,0 +1,65 @@
+/* PortfolioPage.css */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.portfolio-header h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.portfolio-about h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid black;
+}
+
+.portfolio-about p {
+    margin: 10px 0;
+}
+
+.portfolio-nav a {
+    display: block;
+    margin: 5px 0;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.portfolio-nav a:hover {
+    text-decoration: underline;
+}
+
+.portfolio-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.project h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.project p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Add responsive breakpoints as needed */
+  
