@@ -1,0 +1,24 @@
+.garden {
+    background-image: url('../../public/garden.jpg'); /* Update with your image path */
+    background-size: cover; /* Cover ensures that the background covers the entire element */
+    background-position: center; /* Center the image within the element */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh; /* Minimum height to fill the viewport */
+}
+  
+.garden-title {
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+  
+.garden-section {
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.5); /* Optional: Makes section background slightly transparent */
+    padding: 10px;
+    border-radius: 5px;
+    /* Add more styling as needed */
+}
+  

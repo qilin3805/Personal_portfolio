@@ -1,11 +1,16 @@
 import React from 'react';
 import './css/index.css';
+import { Link } from 'react-router-dom';
 
 function LeftNavigation() {
     return (
         <div className="left-side">
           <div className="name-section">
-            <h1>Hi! I'm Qilin Wu</h1>
+            <h1>
+              <Link to="/">
+                Hi! I'm Qilin Wu
+              </Link>
+            </h1>
           </div>
 
           <div className="about-section">
@@ -15,7 +20,6 @@ function LeftNavigation() {
           
           <div className="nav-section">
             <h2>Works</h2>
-            <p>Approach</p>
             <p>Technology</p>
             <p>Story</p>
             <p>Design</p>

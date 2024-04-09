@@ -1,24 +1,15 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import RightProject from './RightProject'; // Make sure the path is correct based on your file structure
+import LeftNavigation from './LeftNavigation';
+import './css/index.css';
 
-// Project component
-const Project = ({ title, description, date, imageSrc, altText }) => {
+function Project() {
   return (
-    <div className="project">
-      <img src={imageSrc} alt={altText} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <p>{date}</p>
+    <div className="container">
+        <LeftNavigation/>
+        <RightProject/>
     </div>
   );
-};
-
-Project.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  imageSrc: PropTypes.string.isRequired,
-  altText: PropTypes.string.isRequired,
-};
+}
 
 export default Project;

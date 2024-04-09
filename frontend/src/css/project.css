@@ -1,48 +1,34 @@
 /* PortfolioPage.css */
 .portfolio-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 16px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 16px;
-}
-
-.portfolio-header h1 {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.portfolio-about h2 {
-    font-size: 1.5em;
-    border-bottom: 2px solid black;
-}
-
-.portfolio-about p {
-    margin: 10px 0;
-}
-
-.portfolio-nav a {
-    display: block;
-    margin: 5px 0;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.portfolio-nav a:hover {
-    text-decoration: underline;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 238px;
+    margin-left: 420px;
 }
 
 .portfolio-projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 16px;
-}
+    grid-template-columns: repeat(4, 1fr); /* Creates a 4-column layout */
+    row-gap: 50px;
+    align-items: start;
+  }  
 
 .project {
-    border: 1px solid #ccc;
-    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black; /* Top line */
+    border-bottom: 2px solid black; /* Bottom line */
+    padding: 8px; /* Adjust padding as needed */
+    padding-top: 15px;
+    padding-bottom: 50px; /* Padding at the bottom, 10px away from the last content */
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.project:hover {
+    transform: translateY(-30px); /* Makes the card pop up */
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.2); */
 }
 
 .project img {
@@ -52,8 +38,7 @@
 }
 
 .project h3 {
-    margin: 0;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 .project p {
@@ -61,5 +46,35 @@
     color: #666;
 }
 
-/* Add responsive breakpoints as needed */
+.project .plus-icon {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed to place it outside the card */
+    left: 10px; /* Center horizontally */
+    background-color: #000000; /* Background color of the icon's box */
+    width: 14px; /* Size of the icon's box */
+    height: 14px; /* Size of the icon's box */
+    line-height: 20px; /* Align the '+' vertically */
+    text-align: center; /* Align the '+' horizontally */
+    border-radius: 50%; /* Make it round */
+    color: white; /* Text color of the '+' icon */
+    font-size: 20px; /* Size of the '+' icon */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Adjust the grid layout for smaller screens */
+@media (max-width: 767px) {
+    .portfolio-projects {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+    }
+}
+
+/* Even smaller screens, 1 column layout */
+@media (max-width: 480px) {
+    .portfolio-projects {
+        grid-template-columns: 1fr; /* 1 column on very small screens */
+    }
+}
+  
   

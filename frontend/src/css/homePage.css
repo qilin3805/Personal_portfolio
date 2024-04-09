@@ -3,7 +3,7 @@
     height: 100vh;
     position: relative; /* Container for the draggable items */
     overflow: hidden; /* Prevent dragging outside the viewport */
-    margin-left: 30px;
+    margin-left: 420px;
 }
   
 .box {

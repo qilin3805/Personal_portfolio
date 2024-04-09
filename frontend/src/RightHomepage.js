@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Draggable from 'react-draggable';
 import './css/homePage.css';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 
 // Added onClick prop to DraggableBox component
@@ -15,7 +15,7 @@ const DraggableBox = ({ id, content, position, onDrag, onDoubleClick, onClick })
   );
 
 function RightHomePage() {
-  // let navigate = useNavigate();
+  const navigate = useNavigate();
   const boundary = {
     minX: 0,
     minY: 0,
@@ -72,9 +72,11 @@ function RightHomePage() {
 
   const handleClick = (id) => {
     if (id === 'STORY') {
-      // <Link to={`/Story`}/> 
-      // This path should match the one specified in your Route component for Story
-    };
+      navigate('/Story');
+    }
+    if (id === 'PROJECT') {
+      navigate('/Project')
+    }
     // Add more conditions here for other boxes if needed
   };
 
