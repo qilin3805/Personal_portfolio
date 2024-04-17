@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Draggable from 'react-draggable';
 import './css/homePage.css';
 import { useNavigate } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
 
 // Added onClick prop to DraggableBox component
 const DraggableBox = ({ id, content, position, onDrag, onDoubleClick, onClick }) => (
