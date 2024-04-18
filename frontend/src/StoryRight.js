@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import TimelineObserver from "react-timeline-animation";
-import { fireConfetti } from "./Story/confetti";
-import "./css/cv.css";
+import { fireConfetti } from "./Story/Confetti";
+import "./css/story.css";
 
 const Timeline = ({ setObserver, callback }) => {
   const [message1, setMessage1] = useState("");
@@ -65,7 +65,7 @@ const Timeline = ({ setObserver, callback }) => {
   );
 };
 
-const RightCV = () => {
+const StoryRight = () => {
   const [message, setMessage] = useState("");
 
   const onCallback = () => {
@@ -92,4 +92,4 @@ const RightCV = () => {
   );
 };
 
-export default RightCV;
+export default StoryRight;

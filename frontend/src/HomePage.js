@@ -1,13 +1,13 @@
 import React from 'react';
 import './css/index.css';
 import LeftNavigation from './LeftNavigation';
-import RightHomePage from './RightHomepage';
+import HomePageRight from './HomepageRight';
 
 function HomePage() {
   return (
     <div className="container">
       <LeftNavigation/>
-      <RightHomePage/>
+      <HomePageRight/>
     </div>
   );
 }

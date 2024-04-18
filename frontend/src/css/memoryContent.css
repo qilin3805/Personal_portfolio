@@ -1,0 +1,52 @@
+.product {
+  background-color: #161616;
+  color: #fff;
+  padding: 8px;
+  padding-top: 20vh;
+  text-align: left;
+}
+
+.product-img-container {
+  width: 100%; /* Use 100% to make it responsive to the grid's column width */
+  padding-top: 100%; /* The padding-top percentage is based on the width, this makes it square */
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.product-img-container:hover {
+  transform: translateY(-30px); /* Makes the card pop up */
+  /* box-shadow: 0 10px 20px rgba(0,0,0,0.2); */
+}
+
+.product img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Override the height to cover the square container */
+  object-fit: cover; /* This will cover the square area, cropping the image if not square */
+}
+
+.product h2 {
+  margin: 16px 0 8px;
+  font-size: 1.5em;
+}
+
+.product p {
+  margin: 0px 0 8px;
+  font-size: 1em;
+  border-top: 1px solid rgb(255, 255, 255); /* Top line */
+}
+
+.product-grid {
+  display: grid;
+  background-color: #161616;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 40px;
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}

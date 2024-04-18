@@ -13,7 +13,7 @@ const DraggableBox = ({ id, content, position, onDrag, onDoubleClick, onClick })
     </Draggable>
   );
 
-function RightHomePage() {
+function HomePageRight() {
   const navigate = useNavigate();
   const boundary = {
     minX: 0,
@@ -25,7 +25,7 @@ function RightHomePage() {
   const originalPositions = {
     STORY: { x: 0, y: 0 },
     PROJECT: { x: 220, y: 180 },
-    TECHNOLOGY: { x: 440, y: 360 },
+    MEMORY: { x: 440, y: 360 },
     GRABBOX: { x: 660, y: 540 },
   };
 
@@ -76,7 +76,9 @@ function RightHomePage() {
     if (id === 'PROJECT') {
       navigate('/Project')
     }
-    // Add more conditions here for other boxes if needed
+    if (id === 'MEMORY') {
+      navigate('/Memory')
+    }
   };
 
   return (
@@ -96,4 +98,4 @@ function RightHomePage() {
   );
 }
 
-export default RightHomePage;
+export default HomePageRight;

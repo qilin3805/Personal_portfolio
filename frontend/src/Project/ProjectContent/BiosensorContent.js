@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/projectContent.css'; // Import the CSS file
+import '../../css/projectContent.css'; // Import the CSS file
 
 function BiosensorContent() {
   return (
