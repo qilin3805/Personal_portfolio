@@ -1,7 +1,7 @@
 import React from 'react';
-import './css/index.css';
-import LeftNavigation from './LeftNavigation';
-import HomePageRight from './HomepageRight';
+import 'css/index.css';
+import LeftNavigation from 'LeftNavigation';
+import HomePageRight from 'HomepageRight';
 
 function HomePage() {
   return (

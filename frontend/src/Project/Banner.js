@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useCallback, useMemo } from 'react';
-import '../css/garden.css';
+import 'css/garden.css';
 
 const Banner = () => {
   const canvasRef = useRef(null);

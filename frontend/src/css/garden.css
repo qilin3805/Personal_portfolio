@@ -1,5 +1,6 @@
 .garden {
-    background-image: url('../../public/garden.jpg'); /* Update with your image path */
+    /*background-image: url('../../public/garden.jpg');  Update with your image path */
+    background-color: #333;
     background-size: cover; /* Cover ensures that the background covers the entire element */
     background-position: center; /* Center the image within the element */
     background-repeat: no-repeat; /* Do not repeat the image */

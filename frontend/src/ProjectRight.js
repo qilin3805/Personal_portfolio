@@ -1,7 +1,7 @@
 import React from 'react';
-import './css/project.css';
+import 'css/project.css';
 import { useNavigate } from 'react-router-dom';
-import ProjectCard from './Project/ProjectCard'; // Make sure the path is correct based on your file structure
+import ProjectCard from 'Project/ProjectCard'; // Make sure the path is correct based on your file structure
 
 function ProjectRight() {
   // Dummy data for projects, replace with actual data

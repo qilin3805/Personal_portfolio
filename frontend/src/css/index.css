@@ -3,7 +3,7 @@
     display: flex;
     /* width: 100%; */
     /* align-items: flex-start; */
-  }
+}
   
 .left-side {
     width: 400px;
@@ -41,11 +41,4 @@
 
 .contact-info {
     font-size: 0.8em;
-}
-
-.right-cv {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden; /* Prevent dragging outside the viewport */
-    margin-left: 420px;
 }

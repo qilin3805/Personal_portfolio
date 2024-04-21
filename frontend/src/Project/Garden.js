@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/garden.css';
+import 'css/garden.css';
 // import backgroundImage from './garden.jpg'; // Adjust the import path as necessary
 
 const Garden = () => {
