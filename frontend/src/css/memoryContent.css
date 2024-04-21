@@ -41,7 +41,7 @@
 .product-grid {
   display: grid;
   background-color: #161616;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
   padding: 40px;
 }
 

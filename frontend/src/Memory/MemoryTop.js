@@ -47,9 +47,9 @@ const MemoryTop = () => {
       <nav>
         <div className="hover-this"><span>Hand Model</span></div>
         {/* <a href="#" className="hover-this"><span>Our Story</span></a> */}
-        <div className="hover-this"><span>Art Work</span></div>
-        <div className="hover-this"><span>Daily Object</span></div>
         <div className="hover-this"><span>Scenery</span></div>
+        <div className="hover-this"><span>Work of Art</span></div>
+        <div className="hover-this"><span>Building</span></div>
         <div className="cursor"></div>
       </nav>
     </div>
