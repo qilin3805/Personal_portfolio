@@ -1,14 +1,14 @@
 import React from 'react';
 import '../css/memoryContent.css';
 
-const Product = ({ image, title, designer, alt }) => (
+const Product = ({ image, title, intro, detail, alt }) => (
     <div className="product">
         <div className="product-img-container">
             <img src={image} alt={alt} />
         </div>
         <h2>{title}</h2>
-        <p>{designer}</p>
-        <p>{designer}</p>
+        <p className='intro'>{intro}</p>
+        <p><em>{detail}</em></p>
     </div>
   
 );

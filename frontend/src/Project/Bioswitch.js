@@ -2,7 +2,7 @@ import React from 'react';
 import TopNavigation from 'TopNavigation';
 import BioswitchBanner from 'Project/ProjectBanner/BioswitchBanner';
 
-function Blossom() {
+function Bioswitch() {
   return (
     <div className="top-container">
       <TopNavigation/>
@@ -11,4 +11,4 @@ function Blossom() {
   );
 }
 
-export default Blossom;
+export default Bioswitch;

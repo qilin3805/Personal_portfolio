@@ -9,6 +9,8 @@ import Bioswitch from 'Project/Bioswitch';
 import BioswitchPage from 'Project/ProjectPage/BioswitchPage';
 import Blossom from 'Project/Blossom';
 import BlossomPage from 'Project/ProjectPage/BlossomPage';
+import Landscape from 'Project/Landscape';
+import LandscapePage from 'Project/ProjectPage/LandscapePage';
 import { RouterProvider } from 'react-router-dom';
 import { createBrowserRouter } from "react-router-dom";
 
@@ -23,6 +25,8 @@ const router = createBrowserRouter([
   { path: `/BioswitchPage`, element: <BioswitchPage /> },
   { path: `/Project/1`, element: <Blossom /> },
   { path: `/BlossomPage`, element: <BlossomPage /> },
+  { path: `/Project/2`, element: <Landscape /> },
+  { path: `/LandscapePage`, element: <LandscapePage /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

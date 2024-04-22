@@ -69,8 +69,8 @@ function BioswitchContent() {
         <p>
         The design prototype is activated by bio-switch. It consists of the mechanical part and circuit part. 
         The mechanical part includes a clam, a woden base, a lever, and 2 coins. The circuit part is in a transparent 
-        waterproof ball. The circuit program is controlled by Arduino UNO. Dissolved O2 data influences bio-switch (7 PIN), 
-        which controls LED ( 3~ PIN) and vibration motor (6~ PIN). In this case, what's happens beneath the water can be 
+        waterproof ball. The circuit program is controlled by Arduino UNO. Dissolved O2 data influences bio-switch, 
+        which controls LED and vibration motor. In this case, what's happens beneath the water can be 
         visualized above.
        </p>
       </section>
