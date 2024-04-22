@@ -35,9 +35,9 @@ const LeftNavigation = () => {
       
       <div className="nav-section">
         <h2>Works</h2>
-        <p>Technology</p>
-        <p>Story</p>
-        <p>Design</p>
+        <p><a href="/Story" className='menu'>+ Story</a></p>
+        <p><a href="/Project" className='menu'>+ Project</a></p>
+        <p><a href="/Memory" className='menu'>+ Memory</a></p>
       </div>
       
       <div className="contact-info">

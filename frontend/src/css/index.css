@@ -14,7 +14,7 @@
     position: fixed; 
 }
 
-.left-side p {
+.left-side p{
     margin: 10px 0;
 }
   
@@ -41,4 +41,13 @@
 
 .contact-info {
     font-size: 0.8em;
+}
+
+.nav-section a.menu {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-section a.menu:hover {
+    font-weight: 1000;
 }
