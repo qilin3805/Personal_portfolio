@@ -1,0 +1,48 @@
+runtime: nodejs20
+
+handlers:
+  - url: /static
+    static_dir: build/static
+
+  - url: /(.*\.(json|ico|js))$
+    static_files: build/\1
+    upload: build/.*\.(json|ico|js)$
+
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+
+  - url: /memory/art/(.*\.(jpg|jpeg|png|gif))$
+    static_files: build/memory/art/\1
+    upload: build/memory/art/.*\.(jpg|jpeg|png|gif)$
+    secure: always
+
+  - url: /memory/model/(.*\.(jpg|jpeg|png|gif))$
+    static_files: build/memory/model/\1
+    upload: build/memory/model/.*\.(jpg|jpeg|png|gif)$
+    secure: always
+
+  - url: /memory/building/(.*\.(jpg|jpeg|png|gif))$
+    static_files: build/memory/building/\1
+    upload: build/memory/building/.*\.(jpg|jpeg|png|gif)$
+    secure: always
+
+  - url: /memory/scenery/(.*\.(jpg|jpeg|png|gif))$
+    static_files: build/memory/scenery/\1
+    upload: build/memory/scenery/.*\.(jpg|jpeg|png|gif)$
+    secure: always
+
+  - url: /project/blossom/(.*\.(jpg|jpeg|png|gif))$
+    static_files: build/project/blossom/\1
+    upload: build/project/blossom/.*\.(jpg|jpeg|png|gif)$
+    secure: always
+
+  - url: /(.*\.(jpg|jpeg|png|gif))$
+    static_files: build/\1
+    upload: build/.*\.(jpg|jpeg|png|gif)$
+    secure: always
+
+  - url: /manifest.json
+    static_files: build/manifest.json
+    upload: build/manifest.json
+    secure: always
