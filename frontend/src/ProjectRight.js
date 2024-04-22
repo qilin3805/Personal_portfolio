@@ -7,18 +7,18 @@ function ProjectRight() {
   // Dummy data for projects, replace with actual data
   const projectsData = [
     {
-      title: 'Open Village',
-      description: 'Designing Open Housing for Zurich’s Geroldareal.',
-      date: 'Spring \'15',
-      imageSrc: require('assets/prj1.jpg'),
+      title: 'Bio-Switch',
+      description: 'Care for ocean regions with historically low oxygen using living bivalve mollusks, the rate and amount of whoose opening shells are sensitive detectors of water-dissolved oxygen.',
+      date: 'Summer \'2022',
+      imageSrc: require('assets/project/bioswitch/bioswitch_comparision.jpg'),
       altText: 'Open Village Thumbnail',
     },
     {
-      title: 'Open Village',
-      description: 'Designing Open Housing for Zurich’s Geror Zurich’s Geroldareal. Designing Open Housing for Zurich’s Geroldareal',
-      date: 'Spring \'15',
-      imageSrc: require('assets/prj2.jpg'),
-      altText: 'Open Village Thumbnail',
+      title: 'Blossom',
+      description: 'Inspired by vernacular pear culture and pastoral life, the "blossom" shares its prototype with the geometrical abstraction of a pear blossom and gestures of farmers celebrating their harvest',
+      date: 'Sumer \'2019',
+      imageSrc: require('assets/project/blossom/bloosom_perspective.jpg'),
+      altText: 'Built real shot of Blossom',
     },
     {
       title: 'Open Village',

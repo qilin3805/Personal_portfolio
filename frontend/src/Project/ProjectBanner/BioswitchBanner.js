@@ -4,9 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import 'css/projectContent/projectTitle.css'; // Import the CSS file
 
 // Define items here
-const items = ['B', 'I', 'O', 'S', 'E', 'N', 'S', 'O', 'R'];
+const items = ['B', 'I', 'O', 'S', 'W', 'I', 'T', 'C', 'H'];
 
-function BioswitchBanner() {
+function BlossomBanner() {
   const [trail, api] = useTrail(items.length, () => ({
     rotateX: 0,
   }));
@@ -36,7 +36,7 @@ function BioswitchBanner() {
   const handlePlay = () => {
     setIsPlaying(!isPlaying);
     if (!isPlaying) {
-      navigate('/BlossomPage');
+      navigate('/BioswitchPage');
     }
   };
 
@@ -83,4 +83,4 @@ function BioswitchBanner() {
   );
 }
 
-export default BioswitchBanner;
+export default BlossomBanner;

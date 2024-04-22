@@ -1,0 +1,139 @@
+.bioswitch .parallax-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+    background-image: url(assets/project/bioswitch/bioswitch_systemdiagram0.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color);
+    row-gap: 4rem;
+  }
+  
+.bioswitch .parallax-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 17px;
+}
+
+.parallax-container p {
+  max-width: 80ch;
+  padding: 17px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.parallax-container h2 {
+  margin-top: 8em;
+  font-size: 1.2rem;
+}
+
+.parallax-container h3 {
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.text-container {
+  width: 68%;
+  background-color: rgba(255, 255, 255, 0.7); /* Adjust the transparency here */
+  padding: 30px; /* Added padding to create space around the text */
+}
+
+.introduction {
+  text-align: left;
+  font-size: 0.9rem; /* Adjust the font size as needed */
+}
+
+.introduction p.bold {
+  font-weight: 400; /* Make the text within <p> elements with class "bold" bold */
+  color: rgb(129, 129, 129);
+}
+
+.introduction span{
+  font-weight: 700; /* Make the text within <p> elements with class "bold" bold */
+}
+
+.introduction p,
+.introduction span {
+  display: inline; /* Ensure both elements are displayed inline */
+}
+
+.buffer {
+  width: 100%;
+  min-height: 20vh;
+  background-color: var(--color);
+  row-gap: 4rem;
+  text-align: center;
+  line-height: 1.7;
+  padding: 6rem 14rem;
+}
+
+.blackbuffer {
+  width: 100%;
+  min-height: 20vh;
+  background-color: black;
+  row-gap: 4rem;
+  text-align: center;
+  line-height: 1.7;
+  padding: 6rem 6rem;
+}
+
+.bioswitch .parallax-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items in the center horizontally */
+  padding: 6rem 0;
+  background-image: url(assets/project/bioswitch/bioswitch_systemdiagram2.jpg);
+  gap: 5em;
+}
+
+.bioswitch .parallax-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items in the center horizontally */
+  padding: 6rem 0;
+  background-image: url(assets/project/bioswitch/bioswitch_systemdiagram2.jpg);
+  gap: 5em;
+}
+
+.bioswitch .parallax-container4 {
+  padding: 6rem 0;
+  background-image: url(assets/project/bioswitch/bioswitch_experiment.jpg);
+  gap: 5em;
+}
+
+.bioswitch .bioswitch .parallax-container5 {
+  padding: 6rem 0;
+  background-image: url(assets/project/bioswitch/bioswitch_systemdiagram0.jpg);
+  gap: 5em;
+}
+
+.parallax-container .card {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8); 
+  box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+.parallax-container .blackcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+  color: white;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
