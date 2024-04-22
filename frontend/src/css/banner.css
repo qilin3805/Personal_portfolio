@@ -1,8 +1,0 @@
-.garden {
-    background-image: url('../../public/garden.jpg'); /* Update with your image path */
-    background-size: cover; /* Cover ensures that the background covers the entire element */
-    background-position: center; /* Center the image within the element */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    font-family: 'Arial', sans-serif;
-    min-height: 100vh; /* Minimum height to fill the viewport */
-}

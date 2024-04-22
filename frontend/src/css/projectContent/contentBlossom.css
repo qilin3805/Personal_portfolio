@@ -7,7 +7,7 @@
 
   /*  this is where the magic happens:  */
   background-attachment: fixed;
-  background-image: url(../../../public/project/blossom/blossom_inner.jpg);
+  background-image: url(assets/project/blossom/blossom_inner.jpg);
   background-position: center;
   background-size: cover;
   color: var(--color);
@@ -87,7 +87,7 @@
   flex-direction: column;
   align-items: center; /* Align items in the center horizontally */
   padding: 6rem 0;
-  background-image: url(../../../public/project/blossom/blossom_inner.jpg);
+  background-image: url(assets/project/blossom/blossom_inner.jpg);
   gap: 5em;
 }
 
@@ -96,19 +96,19 @@
   flex-direction: column;
   align-items: center; /* Align items in the center horizontally */
   padding: 6rem 0;
-  background-image: url(../../../public/project/blossom/blossom_aerial.jpg);
+  background-image: url(assets/project/blossom/blossom_aerial.jpg);
   gap: 5em;
 }
 
 .parallax-container4 {
   padding: 6rem 0;
-  background-image: url(../../../public/project/blossom/blossom_night1.jpg);
+  background-image: url(assets/project/blossom/blossom_night1.jpg);
   gap: 5em;
 }
 
 .parallax-container5 {
   padding: 6rem 0;
-  background-image: url(../../../public/project/blossom/bloosom_perspective.jpg);
+  background-image: url(assets/project/blossom/bloosom_perspective.jpg);
   gap: 5em;
 }
 

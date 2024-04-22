@@ -49,15 +49,15 @@ function BlossomContent() {
 
       <section className="parallax-container parallax-container2">
         <div className="card">
-          <img className="card-img" src="project/blossom/blossom_banner.jpg" alt="Blossom node"/>
+          <img className="card-img" src={require("assets/project/blossom/blossom_banner.jpg")} alt="Blossom node"/>
         </div>
         <div className="card">
-        <img className="card-img" src="project/blossom/bloosom_landscape.jpg" alt="Blossom node"/>
+        <img className="card-img" src={require("assets/project/blossom/bloosom_landscape.jpg")} alt="Blossom node"/>
           <h3>the five-petal pear flower will interpret the most perfect geometric logic</h3>
           <br/>
         </div>
         <div className="card">
-          <img className="card-img" src="project/blossom/blossom_node.jpg" alt="Blossom node"/>
+          <img className="card-img" src={require("assets/project/blossom/blossom_node.jpg")} alt="Blossom node"/>
           <h3>Detail of node</h3>
           <p>
           the overall structure is mainly composed of ground screw foundation, bottom platform, triangular support 
@@ -65,7 +65,7 @@ function BlossomContent() {
           </p>
         </div>
         <div className="card">
-          <img className="card-img" src="project/blossom/blossom_people.jpg" alt="Blossom node"/>
+          <img className="card-img" src={require("assets/project/blossom/blossom_people.jpg")} alt="Blossom node"/>
         </div>
       </section>
 
@@ -90,12 +90,12 @@ function BlossomContent() {
         </div>
         
         <div className="card">
-          <img className="card-img" src="project/blossom/blossom_night3.jpg" alt="Blossom node"/>
+          <img className="card-img" src={require("assets/project/blossom/blossom_night3.jpg")} alt="Blossom node"/>
         </div>
         <div className="blackcard">
         </div>
         <div className="card">
-          <img className="card-img" src="project/blossom/blossom_night2.jpg" alt="Blossom node"/>
+          <img className="card-img" src={require("assets/project/blossom/blossom_night2.jpg")} alt="Blossom node"/>
         </div>
         
       </section>
