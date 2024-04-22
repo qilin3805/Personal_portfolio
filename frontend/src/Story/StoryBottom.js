@@ -6,9 +6,6 @@ const PictureWithText = ({ imageSrc, altText, text }) => {
       <div className="left">
         <img src={imageSrc} alt={altText} />
       </div>
-      {/* <div className="right">
-        <p>{text}</p>
-      </div> */}
     </div>
   );
 };
@@ -18,8 +15,7 @@ const StoryBottom = () => {
     <div className="story-bottom">
       <PictureWithText
         imageSrc="story.jpg"
-        altText="Description of the image"
-        // text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        altText="my self portrait"
       />
     </div>
   );

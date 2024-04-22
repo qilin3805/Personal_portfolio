@@ -1,0 +1,36 @@
+/* Navigation.css */
+.top-container {
+  font-family: 'Metropolis', sans-serif;
+  padding-top: 30px; /* Adjust the value according to the height of your navigation bar */
+}
+
+.top-navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 12.5px;
+  margin-left: 20px;
+}
+
+.menu-item {
+  font-size: 12px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}

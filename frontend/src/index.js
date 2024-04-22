@@ -5,9 +5,8 @@ import HomePage from 'HomePage';
 import Story from 'Story';
 import Project from 'Project';
 import Memory from 'Memory';
-import Banner from 'Project/Banner';
 import Blossom from 'Project/Blossom';
-import BlossomContent from 'Project/ProjectContent/BlossomContent';
+import BlossomPage from 'Project/ProjectPage/BlossomPage';
 import { RouterProvider } from 'react-router-dom';
 import { createBrowserRouter } from "react-router-dom";
 
@@ -20,8 +19,7 @@ const router = createBrowserRouter([
   { path: `/Memory`, element: <Memory /> },
   { path: `/Project/0`, element: <Story /> },
   { path: `/Project/1`, element: <Blossom /> },
-  { path: `/Project/2`, element: <Banner /> },
-  { path: `/BlossomContent`, element: <BlossomContent /> },
+  { path: `/BlossomPage`, element: <BlossomPage /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

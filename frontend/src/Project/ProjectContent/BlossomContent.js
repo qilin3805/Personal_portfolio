@@ -1,24 +1,7 @@
 import React from 'react';
 import 'css/projectContent/contentBlossom.css'; // Import the CSS file
-import { useNavigate } from 'react-router-dom';
 
 function BlossomContent() {
-  const navigate = useNavigate();
-
-const handleBack = () => {
-  navigate('/Project');
-};
-
-const handlePlay = () => {
-  const scrollStep = -window.scrollY / 50;
-    const scrollInterval = setInterval(() => {
-      if (window.scrollY !== 0) {
-        window.scrollBy(0, scrollStep);
-      } else {
-        clearInterval(scrollInterval);
-      }
-    }, 20);
-};
 
   return (
     <div>
@@ -126,14 +109,7 @@ const handlePlay = () => {
       <section className="blackbuffer"></section>
 
       <section className="parallax-container parallax-container4">
-        <div className="blackcard">
-          <div className="ButtonContainer">
-            <button className="Button" onClick={handleBack}>Back</button>
-            <button className="Button" onClick={handlePlay}>Start</button>
-          </div>
-        </div>
       </section>
-
     </div>
     
   );

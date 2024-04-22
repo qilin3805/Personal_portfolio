@@ -1,5 +1,6 @@
 /* App.css */
 .container {
+    font-family: 'Metropolis', sans-serif;
     display: flex;
     /* width: 100%; */
     /* align-items: flex-start; */
@@ -20,7 +21,6 @@
 .name-section {
     height: 30px;
     margin-bottom: 180px;
-    font-family: 'Arial', sans-serif; /* or any other font-family of your choice */
     text-align: left; /* Aligns the text to the left */
     font-size: 20px; /* Adjust the size as needed */
     font-weight: bold; /* Makes the font bold */

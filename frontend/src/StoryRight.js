@@ -8,6 +8,9 @@ const Timeline = ({ setObserver, callback }) => {
   const [message1, setMessage1] = useState("");
   const [message2, setMessage2] = useState("");
   const [message3, setMessage3] = useState("");
+  const [message4, setMessage4] = useState("");
+  const [message5, setMessage5] = useState("");
+  const [message6, setMessage6] = useState("");
 
   const timeline1 = useRef(null);
   const timeline2 = useRef(null);
@@ -17,16 +20,19 @@ const Timeline = ({ setObserver, callback }) => {
   const circle3 = useRef(null);
 
   const someCallback = () => {
-    setMessage1("Carnegie Mellon University,sdfsdfa\n\nafuakfbdfhjabds");
+    setMessage1("Carnegie Mellon University, Pittsburgh, 2023-");
+    setMessage2("Master of Science in Computational Design");
     callback();
   };
 
   const someCallback2 = () => {
-    setMessage2("Carnegie Mellon University, Pittsburgh, PA");
+    setMessage3("Tsinghua University, Beijin, China, 2021- 2023");
+    setMessage4("Master of Architecture");
   };
 
   const someCallback3 = () => {
-    setMessage3("Carnegie Mellon University,Pitdsadsadbsabdasbdhabajh,tschasjkjabdsajhbdhsjabdhbsjdkbaskjbdjksabdkjsabdkjasbdkjasburgh, PA");
+    setMessage5("Tongji University, Shanghai China, 2017-2021");
+    setMessage6("Bachelor of Architecture");
     fireConfetti();
   };
 
@@ -44,13 +50,12 @@ const Timeline = ({ setObserver, callback }) => {
       <div id="timeline1" ref={timeline1} className="timeline" />
       <div className="circleWrapper">
         <div id="circle1" ref={circle1} className="circle">
-          1
+          3
         </div>
       </div>
       <div>
-        <div className="message">{message1}</div>
-        <div className="message">{message1}</div>
-        <div className="message">{message1}</div>
+        <div className="message"><strong>{message1}</strong></div>
+        <div className="message"><em>{message2}</em></div>
       </div>
 
       <div id="timeline2" ref={timeline2} className="timeline" />
@@ -59,15 +64,17 @@ const Timeline = ({ setObserver, callback }) => {
           2
         </div>
       </div>
-      <div className="message">{message2}</div>
+      <div className="message"><strong>{message3}</strong></div>
+      <div className="message"><em>{message4}</em></div>
 
       <div id="timeline3" ref={timeline3} className="timeline" />
       <div className="circleWrapper">
         <div id="circle3" ref={circle3} className="circle">
-          3
+          1
         </div>
       </div>
-      <div className="message">{message3}</div>
+      <div className="message"><strong>{message5}</strong></div>
+      <div className="message"><em>{message6}</em></div>
 
     </div>
   );
@@ -112,10 +119,7 @@ const StoryRight = () => {
         <h2>RESEARCH EXPERIENCE</h2>
         <li><em><strong>International Research Workshop Digital Futures Shanghai, AI for Carbon Netural Cities</strong>
           , Jun-Jul 2022, Workshop, Optimal design of GAN generative master plan greening, Machine learning, Prof. Jiawei Yao</em>
-          {/* <p>Classify 1,000 satellite images of Wuhan to train mask-RCNN model</p>
-          <p>Train machine learning model (pix2pixGAN) using classified dataset</p>
-          <p>Write Python scripts for evaluating different plant carbon sink performancec of generated landscape plans</p> */}
-        </li>
+          </li>
 
         <li><em><strong>Renewal Design of Waterfront Area in Chaotianmen Area, Chongqing</strong>
           , Sep 2020-Jun 2021, Design and exhibition, Highest Academic Achievement with Graduating Thesis, Prof. Zhendong Wang</em>

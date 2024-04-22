@@ -1,14 +1,14 @@
 import React from 'react';
 import TopNavigation from 'TopNavigation';
-import BlossomBanner from 'Project/ProjectBanner/BlossomBanner';
+import BlossomContent from 'Project/ProjectContent/BlossomContent';
 
-function Blossom() {
+function BlossomPage() {
   return (
     <div className="top-container">
       <TopNavigation/>
-      <BlossomBanner/>
+      <BlossomContent/>
     </div>
   );
 }
 
-export default Blossom;
+export default BlossomPage;

@@ -10,7 +10,6 @@ const ProjectCard = ({ title, description, date, imageSrc, altText, onClick }) =
       <h3 className="animate__animated animate__pulse animate__slow animate__infinite	infinite">{title}</h3>
       <p className="animate__animated animate__zoomInDown animate__fast">{description}</p>
       <p className="animate__animated animate__rotateInUpLeft animate__fast">{date}</p>
-      {/* <div className="plus-icon" onClick={onPlusClick}>+</div> */}
       <div className="plus-icon animate__animated animate__swing animate__slow animate__infinite	infinite">+</div>
     </div>
   );
