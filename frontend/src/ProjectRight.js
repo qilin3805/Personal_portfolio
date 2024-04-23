@@ -23,7 +23,7 @@ function ProjectRight() {
     {
       title: 'Landscape Hyperlink',
       description: 'Experimental Research Group | Renewal Design of Waterfront Area in Chaotianmen Area, Chongqing. "Landscape" is an urban wonder like mountains and rivers, and it is also the ideal pursuit of life that is "feasible, watchable, habitable, and travelable"',
-      date: 'Winter \'2020',
+      date: 'Winter \'2020 - Spring \'2021',
       imageSrc: require('assets/project/landscape/landscape_cover.jpg'),
       altText: 'Rendering of landscape hyperlink',
     },

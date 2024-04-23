@@ -44,40 +44,48 @@ const products = [
   image: require('assets/memory/building/Building_Kirche Christi Auferstehung.jpg'), alt: 'Cup Lamp by Paul Loebach' },
   
   // Group5
-  { id: 17, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('assets/memory/model/Model_Section.JPG'), alt: 'Cup Lamp2222 ' },
-  { id: 18, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_Annaya.jpg'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 19, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Grassland.JPG'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 20, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building_Killesberg Tower.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  { id: 17, title: 'Clay', intro: 'Space transfer, Fall 2017', detail: '"Translating a certain organ into space, I studied the spatial relationship of the ear canal."',
+  image: require('assets/memory/model/Model_Clay.JPG'), alt: 'Model made of clay' },
+  { id: 18, title: 'Bryce', intro: 'After snowy, Spring 2024', detail:'"The first ray of sunshine of the new year is ushered in Bryce."',
+  image: require('../assets/memory/scenery/Scenery_Bryce.jpg'), alt: 'Bryce after snow' },
+  { id: 19, title: 'Grassland', intro: 'Gouache, Sep 2019', detail:'',
+  image: require('../assets/memory/art/Art_Grassland.JPG'), alt: 'CGrassland Gouache' },
+  { id: 20, title: 'Stadtbibliothek Stuttgart', intro: 'Stuttgart, Aug 2019', detail:'"The most peaceful place for reading."',
+  image: require('../assets/memory/building/Building Stadtbibliothek Stuttgart2.jpg'), alt: 'Stadtbibliothek Stuttgart hall' },
   
   // Group6
-  { id: 21, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_Parametric.jpg'), alt: 'Cup Lamp2222 ' },
-  { id: 22, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_Bryce.jpg'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 23, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Moutain.JPG'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 24, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building_Huangshichen.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  { id: 21, title: 'Parametric Design', intro: 'Nylon, 3D printing, Jun 2022', 
+  image: require('../assets/memory/model/Model_Parametric.jpg'), alt: '3D printing model of Parametric Design' },
+  { id: 22, title: 'Cleveland', intro: 'After sunset, Dec 2023', detail:'"All the way north until the lake."',
+  image: require('../assets/memory/scenery/Scenery_Cleveland.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  { id: 23, title: 'distant mountains', intro: 'Gouache, Sep 2019', detail:'"Tree shadows whirling"',
+  image: require('../assets/memory/art/Art_Moutain.JPG'), alt: 'Cup Lamp by Paul Loebach' },
+  { id: 24, title: 'Huangshi chen', intro: 'Beijing, Oct 2022', detail:'"Tree shadows whirling"',
+  image: require('../assets/memory/building/Building_Huangshichen.jpg'), alt: 'Cup Lamp by Paul Loebach' },
   
-  // Group7
-  { id: 25, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_Natural museum2.jpg'), alt: 'Cup Lamp2222 ' },
-  { id: 26, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_Pitths.jpg'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 27, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Cabin.JPG'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 28, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building_elbphi l haroni.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  // // Group7
+  // { id: 25, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_Natural museum2.jpg'), alt: 'Cup Lamp2222 ' },
+  // { id: 26, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_Pitths.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  // { id: 27, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Cabin.JPG'), alt: 'Cup Lamp by Paul Loebach' },
+  // { id: 28, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building_elbphi l haroni.jpg'), alt: 'Cup Lamp by Paul Loebach' },
   
-  // Group8
-  { id: 29, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_Natural museum1.jpg'), alt: 'Cup Lamp2222 ' },
-  { id: 30, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_Cleveland.jpg'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 31, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Still life3.JPG'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 32, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building_by Richard Serra.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  // // Group8
+  // { id: 29, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_Natural museum1.jpg'), alt: 'Cup Lamp2222 ' },
+  // { id: 30, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_Annaya.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  // { id: 31, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Still life3.JPG'), alt: 'Cup Lamp by Paul Loebach' },
+  // { id: 32, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building_by Richard Serra.jpg'), alt: 'Cup Lamp by Paul Loebach' },
   
-  // Group9
-  { id: 33, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_blossom.jpg'), alt: 'Cup Lamp2222 ' },
-  { id: 34, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_CMU.jpg'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 35, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Still life2.JPG'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 36, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building Stadtbibliothek Stuttgart2.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  // // Group9
+  // { id: 33, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_blossom.jpg'), alt: 'Cup Lamp2222 ' },
+  // { id: 34, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_CMU.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  // { id: 35, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Still life2.JPG'), alt: 'Cup Lamp by Paul Loebach' },
+  // { id: 36, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building_Killesberg Tower.jpg'), alt: 'Cup Lamp by Paul Loebach' },
   
-  // Group10
-  { id: 37, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_Clay.JPG'), alt: 'Cup Lamp2222 ' },
-  { id: 38, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_Antelope Canyon.jpg'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 39, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Still life.JPG'), alt: 'Cup Lamp by Paul Loebach' },
-  { id: 40, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building Stadtbibliothek Stuttgart.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  // // Group10
+  // { id: 37, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/model/Model_Section.JPG'), alt: 'Cup Lamp2222 ' },
+  // { id: 38, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/scenery/Scenery_Antelope Canyon.jpg'), alt: 'Cup Lamp by Paul Loebach' },
+  // { id: 39, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/art/Art_Still life.JPG'), alt: 'Cup Lamp by Paul Loebach' },
+  // { id: 40, title: 'Cup Lamp', intro: 'Paul Loebach', image: require('../assets/memory/building/Building Stadtbibliothek Stuttgart.jpg'), alt: 'Cup Lamp by Paul Loebach' },
 ];
 
 const MemoryContent = () => (
