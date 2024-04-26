@@ -1,20 +1,52 @@
 /* contentLandscape.css */
+
+/* Basical layout setting*/
 .landscape .parallax-container {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url(assets/project/landscape/landscape_photo.jpg);
+  background-position: center;
+  background-size: cover;
+  color: var(--color);
+  row-gap: 4rem;
+}
   
-    /*  this is where the magic happens:  */
-    background-attachment: fixed;
-    background-image: url(assets/project/landscape/landscape_photo.jpg);
-    background-position: center;
-    background-size: cover;
-    color: var(--color);
-    row-gap: 4rem;
-  }
-  
+/* Container setting*/
+.landscape .parallax-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+  background-image: url(assets/project/landscape/landscape_photo.jpg);
+  gap: 5em;
+}
+
+.landscape .parallax-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+  background-image: url(assets/project/landscape/landscape_horizontal.jpg);
+  gap: 5em;
+}
+
+.landscape .parallax-container4 {
+  padding: 6rem 0;
+  background-image: url(assets/project/landscape/landscape_model.jpg);
+  gap: 5em;
+}
+
+.landscape .parallax-container5 {
+  padding: 6rem 0;
+  background-image: url(assets/project/landscape/landscape_photo.jpg);
+  gap: 5em;
+}
+
+/* Text setting*/
 .landscape .parallax-container h1 {
   font-size: 3rem;
   font-weight: 700;
@@ -63,6 +95,7 @@
   display: inline; /* Ensure both elements are displayed inline */
 }
 
+/* Floating Buffer setting*/
 .buffer {
   width: 100%;
   min-height: 20vh;
@@ -83,36 +116,7 @@
   padding: 6rem 6rem;
 }
 
-.landscape .parallax-container2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Align items in the center horizontally */
-  padding: 6rem 0;
-  background-image: url(assets/project/landscape/landscape_photo.jpg);
-  gap: 5em;
-}
-
-.landscape .parallax-container3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Align items in the center horizontally */
-  padding: 6rem 0;
-  background-image: url(assets/project/landscape/landscape_horizontal.jpg);
-  gap: 5em;
-}
-
-.landscape .parallax-container4 {
-  padding: 6rem 0;
-  background-image: url(assets/project/landscape/landscape_model.jpg);
-  gap: 5em;
-}
-
-.landscape .parallax-container5 {
-  padding: 6rem 0;
-  background-image: url(assets/project/landscape/landscape_photo.jpg);
-  gap: 5em;
-}
-
+/* Floating Card setting*/
 .parallax-container .card {
   width: 60%;
   display: flex;

@@ -5,14 +5,14 @@ function LandscapeContent() {
 
   return (
     <div className='landscape'>
-      <section class="parallax-container">
-        <div class="text-container">
+      <section className="parallax-container">
+        <div className="text-container">
           <h1>Landscape Hyperlink</h1>
-          <div class="introduction">
+          <div className="introduction">
             <br/>
-            <p class="bold">Design year & Completion Year</p> <span>2020 Dec - 2021 Jun</span><br/>
-            <p class="bold">Project location</p> <span>Chongqing, China</span><br/>
-            <p class="bold">Category</p> <span>landscape and urban design, Rhino, grasshopper, AutoCad, Vary</span>
+            <p className="bold">Design year & Completion Year</p> <span>2020 Dec - 2021 Jun</span><br/>
+            <p className="bold">Project location</p> <span>Chongqing, China</span><br/>
+            <p className="bold">Category</p> <span>landscape and urban design, Rhino, grasshopper, AutoCad, Vary</span>
           </div>
           <br/>
           <p>
@@ -23,7 +23,6 @@ function LandscapeContent() {
           </p>
         </div>
       </section>
-
 
       <section className="buffer">
         <p>

@@ -3,6 +3,7 @@ import Draggable from 'react-draggable';
 import 'css/homePage.css';
 import { useNavigate } from 'react-router-dom';
 
+// Component for draggable boxes
 const DraggableBox = ({ id, content, position, onDrag, onDoubleClick, onClick }) => {
   const nodeRef = useRef(null); // Create a ref for the draggable element
 
@@ -32,26 +33,25 @@ function HomePageRight() {
   // Initialize the positions state with originalPositions
   const [positions, setPositions] = useState(originalPositions);
 
+  // Handle drag event
   const handleDrag = (e, data, boxId) => {
-  if (boxId !== 'GRABBOX') {
-    return; // Ignore drag events for other boxes
-  }
+    if (boxId !== 'GRABBOX') {
+      return; // Ignore drag events for other boxes
+    }
+    const { x: dragX, y: dragY } = data;
+    const newPositions = { ...positions };
 
-  const { x: dragX, y: dragY } = data;
-  const newPositions = { ...positions };
+    // Update the position of the grab box
+    newPositions[boxId] = { x: dragX, y: dragY };
+    setPositions(newPositions);
+  };
 
-  // Update the position of the grab box
-  newPositions[boxId] = { x: dragX, y: dragY };
-
-  setPositions(newPositions);
-};
-
-
+  // Reset box positions to original
   const handleReset = () => {
-    // Reset positions of all boxes except 'blankBox' to their original positions
     setPositions(originalPositions);
   };
 
+  // Handle click events
   const handleClick = (id) => {
     if (id === 'STORY') {
       navigate('/Story');

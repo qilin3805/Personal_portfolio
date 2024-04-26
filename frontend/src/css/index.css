@@ -1,9 +1,9 @@
 /* Index.css */
+
+/* Styles for the main container to enable flex box*/
 .container {
     font-family: 'Metropolis', sans-serif;
     display: flex;
-    /* width: 100%; */
-    /* align-items: flex-start; */
 }
   
 .left-side {
@@ -11,7 +11,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    position: fixed; 
+    position: fixed; /* Fixes the position of the left-side navigation */
 }
 
 .left-side p{
@@ -21,10 +21,10 @@
 .name-section {
     height: 30px;
     margin-bottom: 180px;
-    text-align: left; /* Aligns the text to the left */
-    font-size: 20px; /* Adjust the size as needed */
-    font-weight: bold; /* Makes the font bold */
-    white-space: nowrap; /* Keeps the text in a single line */
+    text-align: left; 
+    font-size: 20px; 
+    font-weight: bold;
+    white-space: nowrap; 
     overflow: hidden;
 }
 
@@ -48,6 +48,7 @@
     transition: color 0.3s ease-in-out;
 }
 
+/* Hover effect for menu links in navigation section */
 .nav-section a.menu:hover {
     font-weight: 1000;
 }
@@ -58,6 +59,7 @@ h1 {
     padding-bottom: 25px;
 }
 
+/* Media query for responsiveness - smaller screens */
 @media only screen and (max-width: 800px) {
     .left-side {
         width: 96%;

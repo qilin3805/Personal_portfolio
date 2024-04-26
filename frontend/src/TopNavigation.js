@@ -1,12 +1,14 @@
 import React from 'react';
 import 'css/topNavigation.css';
 
+// Component for the top navigation bar
 function TopNavigation() {
   return (
     <nav className="top-navigation">
       <a href="/" className="name">
         QILIN WU
       </a>
+
       <div className="navigation-menu">
         <a href="/" className="menu-item">HOME</a>
         <a href="/Story" className="menu-item">STORY</a>

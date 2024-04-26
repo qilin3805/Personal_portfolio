@@ -1,4 +1,6 @@
 /* memory.css */
+
+/* Styles for the navigation wrapper */
 .nav-wrapper {
     position: fixed;
     z-index: 9999;
@@ -16,6 +18,7 @@
     padding-right: 2%;
 }
 
+/* Styles for elements with hover effect */
 .nav-wrapper .hover-this {
     transition: all 0.3s ease;
 }
@@ -30,6 +33,7 @@
     transition: transform 0.1s linear;
 }
 
+/* Styles for the cursor */
 .nav-wrapper .cursor {
     pointer-events: none;
     position: fixed;
@@ -52,13 +56,14 @@ transform:translate(-50%, -50%) scale(8);
     text-align: center;
 }
 
+/* Media query for responsiveness - larger screens */
 @media(min-width: 800px) {
     nav {
         display: flex;
         justify-content: space-evenly;
     }
 }
-
+/* Media query for responsiveness - smaller screens */
 @media(max-width: 800px) {
     .nav-wrapper {
         z-index: -9999;

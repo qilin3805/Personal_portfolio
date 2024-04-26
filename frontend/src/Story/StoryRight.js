@@ -4,7 +4,9 @@ import { fireConfetti } from "Story/Confetti";
 import StoryBottom from "Story/StoryBottom";
 import "css/story.css";
 
+// Component for displaying a timeline with animated circles
 const Timeline = ({ setObserver, callback }) => {
+  // State variables for timeline messages
   const [message1, setMessage1] = useState("");
   const [message2, setMessage2] = useState("");
   const [message3, setMessage3] = useState("");
@@ -12,6 +14,7 @@ const Timeline = ({ setObserver, callback }) => {
   const [message5, setMessage5] = useState("");
   const [message6, setMessage6] = useState("");
 
+  // Refs for timeline elements and circles
   const timeline1 = useRef(null);
   const timeline2 = useRef(null);
   const timeline3 = useRef(null);
@@ -19,6 +22,7 @@ const Timeline = ({ setObserver, callback }) => {
   const circle2 = useRef(null);
   const circle3 = useRef(null);
 
+  // Callback functions for timeline events
   const someCallback = () => {
     setMessage1("Carnegie Mellon University, Pittsburgh, 2023-");
     setMessage2("Master of Science in Computational Design");
@@ -33,10 +37,11 @@ const Timeline = ({ setObserver, callback }) => {
   const someCallback3 = () => {
     setMessage5("Tongji University, Shanghai China, 2017-2021");
     setMessage6("Bachelor of Architecture");
-    fireConfetti();
+    fireConfetti(); // Trigger confetti effect
   };
 
   useEffect(() => {
+    // Setting observers for timeline and circle elements
     setObserver(timeline1.current);
     setObserver(timeline2.current);
     setObserver(timeline3.current);
@@ -80,8 +85,10 @@ const Timeline = ({ setObserver, callback }) => {
   );
 };
 
+// Component for the right side of the story page
 const StoryRight = () => {
 
+  // Callback function for timeline event
   const onCallback = () => {
     console.log("awesome");
   };
@@ -107,7 +114,7 @@ const StoryRight = () => {
         />
         </div>
       </div>
-      
+    
       <div className="stub2">
         <h1>MY STORY</h1>
         <h2>RESEARCH EXPERIENCE</h2>

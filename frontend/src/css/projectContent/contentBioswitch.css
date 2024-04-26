@@ -1,4 +1,5 @@
 /* contentBioswitch.css */
+
 /* Basical layout setting*/
 .bioswitch .parallax-container {
   display: flex;
@@ -15,12 +16,6 @@
 }
 
 /* Container setting*/
-.bioswitch .parallax-container h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  padding: 17px;
-}
-
 .bioswitch .parallax-container2 {
   display: flex;
   flex-direction: column;
@@ -100,6 +95,12 @@
 }
 
 /* Text setting*/
+.bioswitch .parallax-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 17px;
+}
+
 .parallax-container p {
   max-width: 80ch;
   padding: 17px;

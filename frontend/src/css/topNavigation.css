@@ -1,9 +1,12 @@
 /* topNavigation.css */
+
+/* Container for the top navigation */
 .top-container {
   font-family: 'Metropolis', sans-serif;
-  padding-top: 30px; /* Adjust the value according to the height of your navigation bar */
+  padding-top: 30px;
 }
 
+/* Styles for the top navigation bar */
 .top-navigation {
   position: fixed;
   top: 0;
@@ -18,12 +21,14 @@
   padding: 10px 20px;
 }
 
+/* Styles for the name/logo in the navigation bar */
 .name {
   font-weight: 600;
   font-size: 12.5px;
   margin-left: 20px;
 }
 
+/* Styles for the menu items in the navigation bar */
 .menu-item {
   font-size: 12px;
   margin-right: 20px;
@@ -31,6 +36,7 @@
   color: #000;
 }
 
+/* Hover styles for the menu items */
 .menu-item:hover {
   text-decoration: underline;
 }

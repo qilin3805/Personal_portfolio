@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react';
 import 'css/index.css';
 import { Link } from 'react-router-dom';
 
+// Component for the left navigation section
 const LeftNavigation = () => {
   const [typedText, setTypedText] = useState('');
   const text = "Hi! I'm Qilin Wu";
 
+  // Effect for typing animation
   useEffect(() => {
     const interval = setInterval(() => {
       if (typedText === text) {

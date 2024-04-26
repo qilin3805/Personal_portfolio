@@ -5,14 +5,14 @@ function BioswitchContent() {
 
   return (
     <div className='bioswitch'>
-      <section class="parallax-container">
-        <div class="text-container">
+      <section className="parallax-container">
+        <div className="text-container">
           <h1>Bio-Switch</h1>
-          <div class="introduction">
+          <div className="introduction">
             <br/>
-            <p class="bold">Design year & Completion Year</p> <span>2022</span><br/>
-            <p class="bold">Project location</p> <span>Beijing, China</span><br/>
-            <p class="bold">Category</p> <span>individual, bio-sensor, audunio, fritizing</span>
+            <p className="bold">Design year & Completion Year</p> <span>2022</span><br/>
+            <p className="bold">Project location</p> <span>Beijing, China</span><br/>
+            <p className="bold">Category</p> <span>individual, bio-sensor, audunio, fritizing</span>
           </div>
           <br/>
           <p>
@@ -24,7 +24,6 @@ function BioswitchContent() {
           </p>
         </div>
       </section>
-
 
       <section className="buffer">
         <p>

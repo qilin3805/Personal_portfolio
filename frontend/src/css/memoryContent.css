@@ -1,4 +1,6 @@
 /* memoryContent.css */
+
+/* Styles for individual memory products */
 .product {
   background-color: #161616;
   color: #fff;
@@ -9,8 +11,8 @@
 }
 
 .product-img-container {
-  width: 100%; /* Use 100% to make it responsive to the grid's column width */
-  padding-top: 100%; /* The padding-top percentage is based on the width, this makes it square */
+  width: 100%; 
+  padding-top: 100%;
   position: relative;
   transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
 }
@@ -24,8 +26,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* Override the height to cover the square container */
-  object-fit: cover; /* This will cover the square area, cropping the image if not square */
+  height: 100%;
+  object-fit: cover; /* Cover the square area, cropping the image if not square */
 }
 
 .product h2 {
@@ -42,6 +44,7 @@
   border-top: 1px solid rgb(255, 255, 255); /* Top line */
 }
 
+/* Styles for the grid layout of memory products */
 .product-grid {
   display: grid;
   background-color: #161616;
@@ -49,6 +52,8 @@
   padding: 40px;
 }
 
+/* Media query for responsiveness */
+/* Adjustments for smaller screens, 1 column layout */
 @media (max-width: 800px) {
   .product-grid {
     width: 100%;

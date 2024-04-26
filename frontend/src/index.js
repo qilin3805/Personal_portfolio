@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import ReactDOM from 'react-dom/client';
 import { ChakraProvider } from '@chakra-ui/react';
 import HomePage from 'HomePage';
@@ -15,21 +14,20 @@ import LandscapePage from 'Project/ProjectPage/LandscapePage';
 import { RouterProvider } from 'react-router-dom';
 import { createBrowserRouter } from "react-router-dom";
 
-// import router from './routes';
-
+// Creating browser router instance
 const router = createBrowserRouter([
+  // Entrance of my website
   { path: `/`, element: <HomePage /> },
+  // Navigation to three main parts
   { path: `/Story`, element: <Story /> },
   { path: `/Project`, element: <Project /> },
   { path: `/Memory`, element: <Memory /> },
+  // Navigation in projects pages
   { path: `/Project/0`, element: <Bioswitch /> },
-  // { path: `/Project/0`, element: <BioswitchPage /> },
   { path: `/BioswitchPage`, element: <BioswitchPage /> },
   { path: `/Project/1`, element: <Blossom /> },
-  // { path: `/Project/1`, element: <BlossomPage /> },
   { path: `/BlossomPage`, element: <BlossomPage /> },
   { path: `/Project/2`, element: <Landscape /> },
-  // { path: `/Project/2`, element: <LandscapePage /> },
   { path: `/LandscapePage`, element: <LandscapePage /> },
 ]);
 
@@ -37,9 +35,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ChakraProvider>
-      {/* <HomePage/> */}
     <RouterProvider router={router} />
     </ChakraProvider>
   </React.StrictMode>
 );
-
