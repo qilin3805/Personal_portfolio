@@ -44,6 +44,14 @@
 transform:translate(-50%, -50%) scale(8);
 }
 
+.nav-wrapper h1 {
+    padding: 5px 40px;
+    color: rgb(177, 177, 177);
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+}
+
 @media(min-width: 800px) {
     nav {
         display: flex;
@@ -67,5 +75,11 @@ transform:translate(-50%, -50%) scale(8);
         width: 100%;
         padding:10px 0;
         display: inline-block;
+    }
+
+    .nav-wrapper h1 {
+        padding: 30px 40px;
+        font-weight: 200;
+        font-size: 30px;
     }
 }

@@ -109,6 +109,7 @@ const StoryRight = () => {
       </div>
       
       <div className="stub2">
+        <h1>MY STORY</h1>
         <h2>RESEARCH EXPERIENCE</h2>
         <li><em><strong>International Research Workshop Digital Futures Shanghai, AI for Carbon Netural Cities</strong>
           , Jun-Jul 2022, Workshop, Optimal design of GAN generative master plan greening, Machine learning, Prof. Jiawei Yao</em>

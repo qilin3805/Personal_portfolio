@@ -48,6 +48,7 @@ const MemoryTop = () => {
   // rendering content for the component
   return (
     <div className="nav-wrapper">
+      <h1>MY MEMORIES</h1>
       <nav>
         <div className="hover-this"><span>Hand Model</span></div>
         <div className="hover-this"><span>Scenery</span></div>

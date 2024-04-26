@@ -38,7 +38,7 @@ function ProjectRight() {
 
   return (
       <div className="portfolio-container">
-      {/* ... other parts of the PortfolioPage */}
+      <h1>MY PROJECT</h1>
       <section className="portfolio-projects">
           {projectsData.map((project, index) => (
           <ProjectCard
