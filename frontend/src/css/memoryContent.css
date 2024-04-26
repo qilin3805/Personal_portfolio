@@ -1,3 +1,4 @@
+/* memoryContent.css */
 .product {
   background-color: #161616;
   color: #fff;
@@ -48,8 +49,14 @@
   padding: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .product-grid {
+    width: 100%;
     grid-template-columns: 1fr;
+    margin-top: 60%;
+  }
+
+  .product {
+    padding-top: 70px;
   }
 }

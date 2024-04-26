@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import { ChakraProvider } from '@chakra-ui/react';
 import HomePage from 'HomePage';
 import Story from 'Story';
@@ -22,10 +23,13 @@ const router = createBrowserRouter([
   { path: `/Project`, element: <Project /> },
   { path: `/Memory`, element: <Memory /> },
   { path: `/Project/0`, element: <Bioswitch /> },
+  // { path: `/Project/0`, element: <BioswitchPage /> },
   { path: `/BioswitchPage`, element: <BioswitchPage /> },
   { path: `/Project/1`, element: <Blossom /> },
+  // { path: `/Project/1`, element: <BlossomPage /> },
   { path: `/BlossomPage`, element: <BlossomPage /> },
   { path: `/Project/2`, element: <Landscape /> },
+  // { path: `/Project/2`, element: <LandscapePage /> },
   { path: `/LandscapePage`, element: <LandscapePage /> },
 ]);
 

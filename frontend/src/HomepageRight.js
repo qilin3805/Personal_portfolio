@@ -1,17 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Draggable from 'react-draggable';
 import 'css/homePage.css';
 import { useNavigate } from 'react-router-dom';
 
-// Added onClick prop to DraggableBox component
-const DraggableBox = ({ id, content, position, onDrag, onDoubleClick, onClick }) => (
-    <Draggable bounds="parent" position={position} onDrag={onDrag}>
-      {/* Correctly pass onClick function */}
-      <div className="box" onDoubleClick={onDoubleClick} onClick={() => onClick(id)}>
+const DraggableBox = ({ id, content, position, onDrag, onDoubleClick, onClick }) => {
+  const nodeRef = useRef(null); // Create a ref for the draggable element
+
+  return (
+    <Draggable
+      nodeRef={nodeRef}
+      bounds="parent"
+      position={position}
+      onDrag={onDrag}
+    >
+      <div ref={nodeRef} className="box" onDoubleClick={onDoubleClick} onClick={() => onClick(id)}>
         {content}
       </div>
     </Draggable>
   );
+};
 
 function HomePageRight() {
   const navigate = useNavigate();

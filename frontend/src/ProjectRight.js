@@ -11,7 +11,7 @@ function ProjectRight() {
       description: 'Independent Project ｜ Care for ocean regions with historically low oxygen using living bivalve mollusks, the rate and amount of whoose opening shells are sensitive detectors of water-dissolved oxygen.',
       date: 'Spring \'2022',
       imageSrc: require('assets/project/bioswitch/bioswitch_comparision.jpg'),
-      altText: 'Open Village Thumbnail',
+      altText: 'Photo of bioswitch installation',
     },
     {
       title: 'Blossom',

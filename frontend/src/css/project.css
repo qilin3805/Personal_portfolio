@@ -1,4 +1,4 @@
-/* PortfolioPage.css */
+/* project.css */
 .portfolio-container {
     padding: 20px;
     display: flex;
@@ -76,18 +76,20 @@
     align-items: center;
 }
 
-/* Adjust the grid layout for smaller screens */
-@media (max-width: 767px) {
-    .portfolio-projects {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+/* Even smaller screens, 1 column layout */  
+@media only screen and (max-width: 800px) {
+    .portfolio-container {
+        width: 95%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: 560px;
+        position: relative;
+        background-color: white;
     }
-}
 
-/* Even smaller screens, 1 column layout */
-@media (max-width: 480px) {
     .portfolio-projects {
-        grid-template-columns: 1fr; /* 1 column on very small screens */
+        grid-template-columns: repeat(2, 1fr); /* Two columns for medium-sized screens */
     }
-}
-  
-  
+  }

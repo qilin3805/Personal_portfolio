@@ -81,8 +81,6 @@ const Timeline = ({ setObserver, callback }) => {
 };
 
 const StoryRight = () => {
-  // // const [message, setMessage] = useState("");
-  // const [message, ] = useState("");
 
   const onCallback = () => {
     console.log("awesome");
@@ -91,7 +89,6 @@ const StoryRight = () => {
   return (
     <div className="rightCV">
       <div className="story-top">
-        
         <div className="self-sketch">
           <StoryBottom/>
         </div>
@@ -109,12 +106,8 @@ const StoryRight = () => {
           )}
         />
         </div>
-
-        
-      
       </div>
       
-      {/* <div className="stub2">{message}</div> */}
       <div className="stub2">
         <h2>RESEARCH EXPERIENCE</h2>
         <li><em><strong>International Research Workshop Digital Futures Shanghai, AI for Carbon Netural Cities</strong>

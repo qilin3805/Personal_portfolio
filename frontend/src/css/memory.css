@@ -1,3 +1,4 @@
+/* memory.css */
 .nav-wrapper {
     position: fixed;
     z-index: 9999;
@@ -43,21 +44,28 @@
 transform:translate(-50%, -50%) scale(8);
 }
 
-@media(min-width: 900px) {
+@media(min-width: 800px) {
     nav {
         display: flex;
         justify-content: space-evenly;
     }
 }
 
-@media(max-width: 900px) {
-    nav {
-        top: 30%;
+@media(max-width: 800px) {
+    .nav-wrapper {
+        z-index: -9999;
+        margin-top: -60%;
+        height: 50vh;
+        background: #161616;
+    }
+
+    .nav-wrapper .cursor {
+        padding: 3rem;
     }
 
     .hover-this {
         width: 100%;
-        padding: 20px 0;
+        padding:10px 0;
         display: inline-block;
     }
 }

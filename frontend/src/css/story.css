@@ -1,7 +1,12 @@
+/* story.css */
 .rightCV {
     width: 100%;
     margin-left: 420px;
     line-height: 1.7;
+}
+
+.cv {
+   width: 36%;
 }
 
 .wrapper {
@@ -70,3 +75,14 @@ li p {
     max-width: 400px;
 }
   
+@media only screen and (max-width: 800px) {
+    .rightCV {
+        margin-left: 20px;
+        margin-top: 560px;
+        position: relative;
+        background-color: white;
+    }
+    .timeline {
+        height:120px;
+    }
+}
