@@ -19,3 +19,6 @@ npm start
 This will start the front-end server at http://localhost:3000. 
 
 > Note: opening terminal window while keeping running.
+
+## This project has been deployed to GCP##
+https://portfolio-qilin.ue.r.appspot.com/
