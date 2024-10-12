@@ -1,6 +1,6 @@
 ## See Google Cloud Deployed Version ##
 This website is delpoyed in GCP and uploaded in Githup.
-Deployed website: `https://puiporfolio.ue.r.appspot.com/`
+Deployed website: `https://portfolio-qilin.ue.r.appspot.com/`
 
 Desktop Screen Resolution (horizontal): <strong>1366×768</strong> &
 Tablet Screen Resolution (vertical): <strong>768×1024</strong>;
